@@ -4,12 +4,13 @@
 }
 
 body {
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	height: 100svh;
 	width: 100svw;
-	background-color: #ffc18c;
+	background: url(../assets/bkg.jpg) no-repeat center center;
 	gap: 3rem;
 }
 
@@ -18,7 +19,8 @@ body {
 }
 .title {
 	font-style: italic;
-	font-size: 3rem;
+	font-weight: 300;
+	font-size: 4rem;
 }
 
 .bookButton {
@@ -48,14 +50,14 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 2rem;
-	background-color: #e7cfb4;
+	background-color: #e6d6a8;
 	display: flex;
 	gap: 1rem;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .showcaseTitle {
 	font-style: italic;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
 	font-size: 32px;
 }

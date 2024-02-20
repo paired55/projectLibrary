@@ -49,16 +49,16 @@ function displayBooks() {
 		newPages.textContent = "Pages: " + item.pages;
 
 		readButton.style.cssText =
-			"width: 100%; border: none; border-radius: 5px; background-color: #dd7973; color: black; font-weight: bold";
+			"width: 100%; border: none; border-radius: 5px; background-color: #e3bfbf; color: black; font-weight: bold";
 		removeButton.style.cssText =
-			"width: 100%; border: none; border-radius: 5px; background-color: #dd7973; color: black; font-weight: bold";
+			"width: 100%; border: none; border-radius: 5px; background-color: #e3bfbf; color: black; font-weight: bold";
 		newTitle.style.cssText = "color: white; font-style: italic";
 		newAuthor.style.cssText = "color: white; font-style: italic";
 		newPages.style.cssText = "color: white; font-style: italic";
 		newRead.style.cssText = "color: white; font-style: italic";
 
 		newCard.style.cssText =
-			"display: flex; flex-direction: column; background-color: #563232; padding: 1rem; gap: 5px;";
+			"display: flex; flex-direction: column; background-color: #563232; padding: 1rem; gap: 10px;";
 		// Append child elements to newCard
 		newCard.appendChild(newTitle);
 		newCard.appendChild(newAuthor);
